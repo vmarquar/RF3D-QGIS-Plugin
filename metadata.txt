@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Export Input Data to RockyFor3D
+qgisMinimumVersion=3.0
+description=This plugin exports the prepared datasets for a RockyFor3D Simulation
+version=0.1
+author=Valentin Marquart
+email=valentin.marquart@tum.de
+
+about=This plugin takes the prepared input data for a rockfall simulation with rockyfor3d and converts the input vector data into the required Ascii (.asc) Datasets for RockyFor3D
+
+tracker=https://github.com/vmarquar/export-to-rockyfor3d
+repository=https://github.com/vmarquar/export-to-rockyfor3d
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, rockyfor3d, rockfall
+
+homepage=https://github.com/vmarquar/export-to-rockyfor3d
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
