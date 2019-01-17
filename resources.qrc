@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/export_rf3d" >
+        <file>import.png</file>
+    </qresource>
+</RCC>
