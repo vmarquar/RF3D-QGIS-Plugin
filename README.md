@@ -13,3 +13,9 @@ Furthermore it helps importing the simulation raster files in very effective man
     - Windows: `C:\Users\YOUR_USERNAME\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins`
     - Linux: `/home/YOUR_USERNAME/.local/share/QGIS/QGIS3/profiles/default/python/plugins`
 4. reload all plugins with the plugin manager in QGIS (might need a restart)
+
+### Get RockyFor3d (free for members)
+[ecorisq Tools](https://www.ecorisq.org/ecorisq-tools)
+
+### Tags
+rockfall, simulation software, rocky for 3d, RockyFor3D
