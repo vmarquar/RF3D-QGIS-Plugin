@@ -8,8 +8,8 @@ Furthermore it helps importing the simulation raster files in very effective man
 ### Installation
 1. Download this github repo as .zip file
 2. unzip it
-3. place the folder under following path: 
-    Mac OS: '/Users/YOUR_USERNAME/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins'
-    Windows: 'C:\Users\YOUR_USERNAME\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins'
-    Linus: '/home/YOUR_USERNAME/.local/share/QGIS/QGIS3/profiles/default/python/plugins'
+3. place the folder under following path
+    - Mac OS: `/Users/YOUR_USERNAME/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins`
+    - Windows: `C:\Users\YOUR_USERNAME\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins`
+    - Linux: `/home/YOUR_USERNAME/.local/share/QGIS/QGIS3/profiles/default/python/plugins`
 4. reload all plugins with the plugin manager in QGIS (might need a restart)
