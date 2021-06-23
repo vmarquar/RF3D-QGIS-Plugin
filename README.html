@@ -1,42 +1,15 @@
-<html>
-<body>
-<h3>Plugin Builder Results</h3>
+# RockyFor3D QGIS-Plugin (RF3D) 
 
-Congratulations! You just built a plugin for QGIS!<br/><br />
+### About
+This is a QGIS-Plugin for the RockyFor3D (RF3D) rockfall simulation software.
+The Plugin facilitates the export of correctly formatted raster files (.asc) with the correct naming schema and format dependencies of RF3D.
+Furthermore it helps importing the simulation raster files in very effective manner, by recursevely imorting all simulation files that are located in one parent directory.
 
-<div id='help' style='font-size:.9em;'>
-Your plugin <b>ExportToRF3D</b> was created in:<br>
-&nbsp;&nbsp;<b>/Users/Valentin/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Ingenieur-und-Hydro/4 MASTERARBEIT/2 GIS/0 Skripte und Plugins/exporttorf3d</b>
-<p>
-Your QGIS plugin directory is located at:<br>
-&nbsp;&nbsp;<b>/Users/Valentin/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins</b>
-<p>
-<h3>What's Next</h3>
-<ol>
-    <li>In your plugin directory, compile the resources file using pyrcc5 (simply run <b>make</b> if you have automake or use <b>pb_tool</b>)
-    <li>Test the generated sources using <b>make test</b> (or run tests from your IDE)
-    <li>Copy the entire directory containing your new plugin to the QGIS plugin directory (see Notes below)
-    <li>Test the plugin by enabling it in the QGIS plugin manager
-    <li>Customize it by editing the implementation file <b>export_rf3d.py</b>
-    <li>Create your own custom icon, replacing the default <b>icon.png</b>
-    <li>Modify your user interface by opening <b>export_rf3d_dialog_base.ui</b> in Qt Designer
-</ol>
-Notes:
-<ul>
-    <li>You can use the <b>Makefile</b> to compile and deploy when you
-        make changes. This requires GNU make (gmake). The Makefile is ready to use, however you 
-        will have to edit it to add addional Python source files, dialogs, and translations.
-    <li>You can also use <b>pb_tool</b> to compile and deploy your plugin. Tweak the <i>pb_tool.cfg</i> file included with your plugin as you add files. Install <b>pb_tool</b> using 
-        <i>pip</i> or <i>easy_install</i>. See <b>http://loc8.cc/pb_tool</b> for more information.
-</ul>
-</div>
-<div style='font-size:.9em;'>
-<p>
-For information on writing PyQGIS code, see <b>http://loc8.cc/pyqgis_resources</b> for a list of resources.
-</p>
-</div>
-<p>
-&copy;2011-2018 GeoApt LLC - geoapt.com 
-</p>
-</body>
-</html>
+### Installation
+1. Download this github repo as .zip file
+2. unzip it
+3. place the folder under following path: 
+    Mac OS: '/Users/YOUR_USERNAME/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins'
+    Windows: 'C:\Users\YOUR_USERNAME\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins'
+    Linus: '/home/YOUR_USERNAME/.local/share/QGIS/QGIS3/profiles/default/python/plugins'
+4. reload all plugins with the plugin manager in QGIS (might need a restart)
